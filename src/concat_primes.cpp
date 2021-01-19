@@ -1,23 +1,23 @@
-/** 
+/*
     @mainpage Concat Primes
-
-    @author Author
-
-    What does this program do in short? Perhaps the name of the project goes here?
+    @author Dante D'Onofrio, Tessa Hartman
+    Figures a number n that is a starting position on a list of prime numbers and outputs 5 digits of that list.
 */
 
-/** \file concat_primes.cpp
-    \brief Brief explanation...
-    
-    Long explination goes here...
+/*
+    \file concat_primes.cpp
+    \brief string manipulation using .substr
+
+    main tests the program before output of initial prompt, then asks for integer n
+    program then runs function get_concatenated_primes, which calculates all prime numbers between 0 - 1000 and returns the accumulated object of strings
+    then program runs get_slice_of_5 which takes the index and a length of five and returns just the subsection to main before output of the final five digits and prompts for more input
 
     Requires: C++11
 */
 
-
 #include<iostream>
+#include <assert.h>
 #include<string>
-
 
 /** \brief Brief function explaination
    
@@ -25,6 +25,7 @@
 
     @return std::string
 */
+
 std::string get_concatenated_primes()
 {
     std::string concat_primes = "";
