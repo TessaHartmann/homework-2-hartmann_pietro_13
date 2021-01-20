@@ -20,10 +20,15 @@
 #include<string>
 
 /*
-   \brief Brief function explaination
+   \brief 2 functions both gathering and sending info to main.
 
    get_concatenated_primes:
 
+   First for loop itterates from 2 to 2000 by 1 each time and second for loop does the same.
+   Boolean true and false used to test the value for prime or not prime.
+   if i % j == 0 || i == j makes sure the number is not prime then if prime == true and i is not 1, number is prime.
+   accumulation made simple by use of substr and to_string command.
+   then the function returns accumulated substr to main.
 
    get_slice_of_5:
 
