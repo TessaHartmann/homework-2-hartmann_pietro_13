@@ -9,11 +9,17 @@ This program consists of tests and the physical program itself which can be repe
 Installation and RUN
 
 Navigate to the file so when you type an ls command the internal files are shown.
+
 First, Type the make command into the prompt.
+
 Then, Type make test to check if the tests pass.
+
 Next, use cd bin to navigate to the bin directory.  
+
 (There is a binary file called "concat" in this location.)  
+
 Once in the bin directory, use the command: concat to compile the program and run it.  
+
 Ctrl +C is used to stop the program.
 
 Documentation
